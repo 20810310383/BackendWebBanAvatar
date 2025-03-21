@@ -27,6 +27,8 @@ connectDB();
 const allowedOrigins = [
     'http://localhost:3040', 
     'http://localhost:3041', // Local development    
+    'https://admintruong.shopacc2x.com',
+    'https://shopacc2x.com'
    
 ];
 
