@@ -42,9 +42,9 @@ module.exports = {
             }
             
             // tang/giam
-            let sortOrder = 1; // tang dn
+            let sortOrder = -1; // tang dn
             if (order === 'desc') {
-                sortOrder = -1; 
+                sortOrder = 1; 
             }
 
             // lọc tài khoản theo giá từ X đến Y
@@ -281,9 +281,9 @@ module.exports = {
             }           
 
             // tang/giam
-            let sortOrder = 1; // tang dn
+            let sortOrder = -1; // tang dn
             if (order === 'desc') {
-                sortOrder = -1; 
+                sortOrder = 1; 
             }
 
             // lọc tài khoản theo giá từ X đến Y
